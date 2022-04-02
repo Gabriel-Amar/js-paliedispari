@@ -1,7 +1,7 @@
 let parola = prompt("Inserisci parola")
 
-function giraparola(parola){
-    let lettere = parola.split("");
+function giraparola(termine){
+    let lettere = termine.split("");
     let parolagirata = [];
     for(let i = lettere.length - 1; i >= 0; i--){
         parolagirata += lettere[i];
